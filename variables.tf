@@ -35,3 +35,11 @@ variable "sg_description" {
 #     default = "this is created for bastion sg group"
   
 # }
+
+variable "sg_name" {
+  type = string
+}
+
+variable "vpc_id" {
+  type = string
+}
