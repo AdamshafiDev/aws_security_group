@@ -36,6 +36,3 @@ variable "bastion_sg_description" {
   
 }
 
-variable "vpc_id" {
-  type = string
-}
