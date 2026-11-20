@@ -23,22 +23,19 @@ variable "sg_description" {
   
 }
 
-# variable "bastion_sg_name" {
-#     type    = string
+variable "bastion_sg_name" {
+    type    = string
 
-#     default = "bastion"
+    default = "bastion"
   
-# }
-
-# variable "bastion_sg_description" {
-#     type    = string
-#     default = "this is created for bastion sg group"
-  
-# }
-
-variable "sg_name" {
-  type = string
 }
+
+variable "bastion_sg_description" {
+    type    = string
+    default = "this is created for bastion sg group"
+  
+}
+
 
 variable "vpc_id" {
   type = string
