@@ -1,38 +1,38 @@
 variable "project" {
-    type    = string
-    default = "roboshop"
-  
+  type    = string
+  default = "roboshop"
+
 }
 
 variable "environment" {
-    type    = string
-    default = "dev"
-  
+  type    = string
+  default = "dev"
+
 }
 
 variable "frontend_sg_name" {
-    type    = string
+  type = string
 
-    default = "frontend"
-  
+  default = "frontend"
+
 }
 
 variable "sg_description" {
-    type    = string
-    default = "this is created port number"
-  
+  type    = string
+  default = "this is created port number"
+
 }
 
 variable "bastion_sg_name" {
-    type    = string
+  type = string
 
-    default = "bastion"
-  
+  default = "bastion"
+
 }
 
 variable "bastion_sg_description" {
-    type    = string
-    default = "this is created for bastion sg group"
-  
+  type    = string
+  default = "this is created for bastion sg group"
+
 }
 
