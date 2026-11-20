@@ -23,7 +23,7 @@
 # }
 
 module "frontend" {
-  source = "git::https://github.com/AdamshafiDev/aws_security_group.git?ref=main"
+  source = "git::https://github.com/AdamshafiDev/roboshop-infra-dev.git?ref=main"
 
   project          = var.project
   environment      = var.environment
@@ -33,7 +33,7 @@ module "frontend" {
 }
 
 module "bastion" {
-  source = "git::https://github.com/AdamshafiDev/aws_security_group.git?ref=main"
+  source = "git::https://github.com/AdamshafiDev/roboshop-infra-dev.git?ref=main"
 
   project         = var.project
   environment     = var.environment
