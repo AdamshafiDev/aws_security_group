@@ -10,12 +10,7 @@ variable "environment" {
   
 }
 
-variable "frontend_sg_name" {
-    type    = string
 
-    default = "frontend"
-  
-}
 
 variable "sg_description" {
     type    = string
